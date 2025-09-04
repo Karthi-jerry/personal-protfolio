@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { FaReact, FaJava, FaGithub, FaLinkedin, FaBootstrap } from "react-icons/fa";
+import { SiSpringboot, SiMysql, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <About></About>
+      <Projects></Projects>
+      <Skills></Skills>
+      <Contact></Contact>
+    </>
   );
 }
+
 
 export default App;
