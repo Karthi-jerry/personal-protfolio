@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">Karthick</a>
+        <a className="navbar-brand fw-bold" href="#home">Karthick Muthupandi</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,6 +26,7 @@ export default function Navbar() {
                 offset={-70}
                 activeClass="active"
                 className="nav-link"
+                role="button"
               >
                 Home
               </Link>
@@ -39,6 +40,7 @@ export default function Navbar() {
                 offset={-70}
                 activeClass="active"
                 className="nav-link"
+                role="button"
               >
                 About
               </Link>
@@ -52,6 +54,7 @@ export default function Navbar() {
                 offset={-70}
                 activeClass="active"
                 className="nav-link"
+                role="button"
               >
                 Projects
               </Link>
@@ -65,6 +68,7 @@ export default function Navbar() {
                 offset={-70}
                 activeClass="active"
                 className="nav-link"
+                role="button"
               >
                 Skills
               </Link>
@@ -78,6 +82,7 @@ export default function Navbar() {
                 offset={-70}
                 activeClass="active"
                 className="nav-link"
+                role="button"
               >
                 Contact
               </Link>

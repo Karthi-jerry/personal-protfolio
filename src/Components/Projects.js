@@ -17,7 +17,7 @@ export default function Projects() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm border-0">
               <img
-                src="/Photos/taskman.jpg"
+                src={process.env.PUBLIC_URL +"/Photos/taskman.jpg"}
                 className="card-img-top"
                 alt="Task Management App"
               />
@@ -45,7 +45,7 @@ export default function Projects() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm border-0">
               <img
-                src="/Photos/taskman.jpg"
+                src={process.env.PUBLIC_URL +"/Photos/taskman.jpg"}
                 className="card-img-top"
                 alt="Event Booking Platform"
               />
@@ -73,7 +73,7 @@ export default function Projects() {
           <div className="col-md-4">
             <div className="card h-100 shadow-sm border-0">
               <img
-                src="/Photos/taskman.jpg"
+                src={process.env.PUBLIC_URL +"/Photos/taskman.jpg"}
                 className="card-img-top"
                 alt="Online Notes App"
               />

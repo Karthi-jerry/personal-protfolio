@@ -8,7 +8,7 @@ export default function About() {
           
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <img
-              src="/Photos/karthiJerry.jpg"
+              src={process.env.PUBLIC_URL + "/Photos/karthiJerry.jpg"}
               alt="About Karthick"
               className="img-fluid rounded shadow"
               width="300"

@@ -14,7 +14,7 @@ export default function Hero() {
           
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <img
-              src="/Photos/karthiJerry.jpg"
+              src={process.env.PUBLIC_URL + "/Photos/karthiJerry.jpg"}
               alt="Karthick Muthupandi"
               className="img-fluid rounded-circle shadow"
               width="250"

@@ -41,7 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Karthi-jerry.github.io/personal-protfolio",
+ "homepage": "https://karthi-jerry.github.io/personal-protfolio",
+
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
