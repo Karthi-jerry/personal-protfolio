@@ -38,7 +38,7 @@ export default function Hero() {
               <a
                 href="/Karthick_MuthupandiResume.pdf"
                 className="btn btn-outline-dark"
-                download
+                download= "Karthick_MuthuapndiResume.pdf"
               >
                 <i className="fas fa-download me-2"></i> Download Resume
               </a>
